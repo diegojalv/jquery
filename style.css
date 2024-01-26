@@ -3,12 +3,24 @@ body {
     margin: 0;
     padding: 0;
     overflow: hidden;
+    background-color: #f5f5f5;
+    text-align: center;
+  }
+  
+  header {
+    background-color: #333;
+    color: white;
+    padding: 20px;
   }
   
   .container {
+    display: inline-block;
     text-align: center;
     background-color: lightblue;
     padding: 20px;
+    margin: 20px auto;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
     transition: all 0.5s ease;
   }
   
@@ -21,17 +33,26 @@ body {
     width: 100%;
     height: auto;
     border-radius: 10px;
+    margin-top: 20px;
     transition: all 0.5s ease;
   }
   
   #content {
-    font-size: 38px; /* Set the desired font size */
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    font-size: 35px;
+    margin: 0;
+    padding: 20px;
     transition: all 0.5s ease;
+    text-align: center;
   }
   
-  /* Add other styles as needed */
+  footer {
+    background-color: #666; /* Grey background color for the footer */
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
+  
   
