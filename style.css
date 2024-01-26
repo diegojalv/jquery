@@ -1,0 +1,37 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+  
+  .container {
+    text-align: center;
+    background-color: lightblue;
+    padding: 20px;
+    transition: all 0.5s ease;
+  }
+  
+  .container.transformed {
+    background-color: darkslategray;
+    color: white;
+  }
+  
+  #image {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    transition: all 0.5s ease;
+  }
+  
+  #content {
+    font-size: 24px; /* Set the desired font size */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transition: all 0.5s ease;
+  }
+  
+  /* Add other styles as needed */
+  
