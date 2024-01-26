@@ -7,7 +7,7 @@ $(document).ready(function() {
   
       if ($(this).hasClass('transformed')) {
         content.fadeOut('slow', function() {
-          content.text('Frustrated').fadeIn('slow');
+          content.text('Sad').fadeIn('slow');
         });
         
         image.fadeOut('slow', function() {
